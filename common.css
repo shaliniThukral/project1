@@ -1,0 +1,691 @@
+
+html,body {
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'D-DIN';
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN.eot');
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN.woff2') format('woff2'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN.woff') format('woff'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'D-DIN';
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN-Bold.eot');
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN-Bold.woff2') format('woff2'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN-Bold.woff') format('woff'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN-Bold.ttf') format('truetype'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/D-DIN-Bold.svg#D-DIN-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Bold.eot');
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Bold.woff') format('woff'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Regular.eot');
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Regular.woff') format('woff'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Semibold.eot');
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Light.eot');
+    src: url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Light.woff2') format('woff2'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Light.woff') format('woff'),
+        url('https://cdn3.destm.com/destm_com/main/fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/*Header CSS Start*/
+.header-top-bar {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 14px 0 14px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+}
+.header-top-bar .social-listing {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-top-bar .address-bar li {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #777777;
+}
+.header-top-bar .address-bar li a{
+    color: #ab0e24;
+    margin-left: 5px;
+}
+.header-top-bar .social-listing li a {
+    display: inline-block;
+    margin: 0 15px;
+    color: #b4b4b4;
+    font-size: 18px;
+}
+.header-top-bar .social-listing li a:hover {
+    color: #ab0e24;
+}
+.header-top-bar .social-listing li:last-child a {
+    margin-right: 0;
+}
+.rd-navbar-static .rd-nav-link {
+    border-radius: 0;
+    color: #fff;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    padding: 14px 22px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    background-color: transparent;
+}
+.rd-navbar-static .rd-nav-item.active .rd-nav-link,
+.rd-navbar-static .rd-nav-item.focus .rd-nav-link,
+.rd-navbar-static .rd-nav-item .rd-nav-link:hover {
+    background-color: #AA0E23;
+    color: #fff;
+}
+.rd-navbar-static .rd-nav-item.active > .rd-navbar-submenu-toggle,
+.rd-navbar-static .rd-nav-item > .rd-navbar-submenu-toggle {
+    margin-left: -16px;
+    color: #ffffff;
+}
+.rd-navbar-minimal.rd-navbar-static .rd-navbar-main-element {
+    justify-content: flex-end;
+}
+.rd-navbar-static .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-static .rd-nav-item.opened > .rd-navbar-submenu-toggle {
+    color: #FFF;
+}
+.rd-navbar-static .rd-megamenu-list-link {
+    font-weight: 600;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-size: 18px;
+}
+.rd-navbar-fixed .rd-nav-link {
+    color: #989898;
+    font-weight: 600;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+.rd-navbar-static .rd-nav-item + .rd-nav-item {
+    margin-left: 0px;
+}
+.rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu {
+    margin-top: 4px;
+}
+.rd-navbar-static .rd-navbar-megamenu {
+    max-width: 680px;
+}
+.fa {
+    font-style: normal;
+}
+.menu-what-we-offer .rd-megamenu-list .rd-megamenu-list-item {
+    padding-left: 20px;
+}
+.menu-what-we-offer .rd-megamenu-list .rd-megamenu-list-item:first-child {
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+.rd-navbar-static .menu-technology .rd-megamenu-list li > a {
+    flex-wrap: wrap;
+}
+.menu-technology .rd-megamenu-list .rd-megamenu-list-item{
+    padding-left: 20px;
+}
+.menu-technology .menu-subText {
+    font-size: 13px;
+    color: #aeb1be;
+    padding-left: 20px;
+    margin: 0px;
+    line-height: 20px;
+    width: 100%;
+}
+.rd-navbar-fixed .rd-nav-link {
+    font-family: 'Proxima Nova Rg';
+    font-size: 18px;
+    font-weight: normal;
+}
+/*Header CSS End*/
+/*Footer CSS Start*/
+.copyright-section {
+    background-color: #242424;
+    padding: 18px 0;
+}
+.section .rights {
+    color: #ffffff;
+    font-size: 18px;
+}
+/*Footer CSS End*/
+.team-hire-btn .outline-btn {
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 2px solid #c6273a;
+    color: #c6273a;
+    padding: 11px 15px;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Proxima Nova Lt';
+    font-weight: bold;
+    font-size: 18px;
+}
+.team-hire-btn .outline-btn:hover{
+    background-color: #c6273a;
+}
+.swiper-slide .button.button-common,.button-common {
+    border-radius: 4px;
+    font-family: 'Proxima Nova Lt';
+    font-weight: bold;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    padding: 11px 34px;
+    font-size: 18px;
+    position: relative;
+}
+.team-hire-btn .outline-btn:hover span{
+    color: #ffffff;
+}
+.team-hire-btn .outline-btn::after{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #c6273a;
+    transition: transform 0.85s;
+    transform: scale(0,1);
+    transform-origin: 0% 0%;
+}   
+.team-hire-btn .outline-btn:hover::after{
+    transform: scale(1,1);
+}
+.team-hire-btn .outline-btn span{
+    position: relative;
+    z-index: 3;
+}
+.title-common-section .wow::after{
+    display: none;
+}
+.title-common-section .wow {
+    padding-bottom: 0;
+    font-family: "D-DIN";
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.read-more:hover,.glance-common-feature a:hover,
+.copyright-section a:hover {
+    color: #ad212c;
+}
+.text-red{
+    color: #d33844;
+}
+.text-grey{
+    color: #a6a6a6;
+}
+.section h6 {
+    font-family: 'Proxima Nova Rg';
+}
+.owl-dots {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.owl-dot {
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.owl-dot::before {
+    background: unset;
+    background-color: #e3939d;
+    border-radius: inherit;
+    transition: .2s;
+    transform: unset;
+}
+.owl-dot:hover::before, .owl-dot.active::before{
+    background-color: #ffffff;
+}
+.button.button-primary:hover, .button.button-primary:active {
+    color: #fff;
+    background-color: #7b0212;
+    border-color: #7b0212;
+}
+.section p {
+    font-family: 'Proxima Nova Rg';
+    margin-top: 0;
+    font-weight: normal;
+}
+/*Inner page common CSS Start*/
+.subtitle-common {
+    font-size: 20px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+}
+.subtitle-common span {
+    line-height: 16px;
+    display: inline-block;
+    letter-spacing: 0;
+}
+.page-banner-section .button-primary{
+    position: relative;
+}
+.page-banner-section.section {
+    padding: 0;
+    background-color: #f8f8f8;
+}
+/*Inner page common CSS End*/
+/* Why choose us section CSS Start */
+.about-content .title-common-section {
+    margin-bottom: 20px;
+}
+.section.choose-us-section p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #444444;
+}
+.standard-list li {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #222222;
+}
+.record-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.record-list li {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    max-width: 45%;
+    margin: 13px;
+    border-radius: 8px;
+    padding: 30px 10px;
+    width: 100%;
+}
+.record-list li:nth-child(2),.record-list li:nth-child(3){
+    filter: drop-shadow(0 0 3px #dcdcdc);
+}
+.record-list li:nth-child(2){
+    color: #24c193;
+    margin-top: 50px;
+}
+.record-list li:nth-child(2) span,.record-list li:nth-child(2) strong{
+    color: #24c193;
+}
+.record-list li:first-child span,.record-list li:first-child strong,
+.record-list li:last-child span,.record-list li:last-child strong{
+    color: #ffffff;
+}
+.record-list li:nth-child(3){    
+    margin-top: -25px;
+}
+.record-list li:nth-child(3) span,.record-list li:nth-child(3) strong{
+    color: #f52c81;
+}
+.record-list li:first-child {
+    background-color: #fc6f40;
+}
+.record-list li:last-child {
+    background-color: #7abe50;
+}
+.record-list li:nth-child(2), .record-list li:last-child {
+    margin-right: 0;
+}
+.record-list li span{
+    font-size: 24px;
+}
+.record-list li strong{
+    font-size: 80px;
+    font-family: 'D-DIN';
+    font-weight: normal;
+    line-height: 85px;
+}
+/* Why choose us section CSS End */
+/* Consultation Sction CSS Start */
+.consultation-section {
+    background: url("https://cdn3.destm.com/destm_com/main/images/consult-bg.jpg") no-repeat center;
+    padding: 30px 0;
+    margin: 20px auto 0;
+    background-size: cover;
+}
+.consultation-section .row{
+    align-items: center;
+}
+.consultation-section .title-common-section .wow {
+    font-size: 32px;
+    color: #ffffff;
+    max-width: 520px;
+    text-transform: capitalize;
+}
+.consult-btn .outline-white {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 30px;
+    position: relative;
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 40px;
+    font-size: 18px;
+}
+.consult-btn .outline-white:hover {
+    background-color: #ffffff;
+}
+.consult-btn .outline-white:hover span{
+    color: #c6273a;
+}
+.consult-btn .outline-white::after{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transition: transform 0.85s;
+    transform: scale(0,1);
+    transform-origin: 0% 0%;
+}   
+.consult-btn .outline-white:hover::after{
+    transform: scale(1,1);
+}
+.consult-btn .outline-white span{
+    position: relative;
+    z-index: 3;
+}
+/* Consultation Sction CSS End */
+/* About Us section CSS Start */
+.title-about-section .wow {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Proxima Nova Rg';
+    text-transform: capitalize;
+}
+.section .about-info {
+    color: #555555;
+    font-size: 18px;
+    margin: 20px auto 40px;
+    max-width: 810px;
+}
+.inner-content{
+    position: relative;
+}
+.address-section + .address-section .inner-content::after {
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 2px;
+    background-color: #efefef;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.inner-content h6 {
+    color: #222222;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+.inner-content .location {
+    max-width: 320px;
+    margin: 10px auto 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+.inner-content:hover .icon-circle .text-muted, 
+.inner-content:hover h6{
+    color: #c6273a !important;
+}
+.inner-content:hover .icon-circle{
+    border-color: #c6273a;
+}
+.section .icon-circle {
+    height: 74px;
+    width: 74px;
+    margin: 0 auto;
+    border: 2px solid #bababa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+/* About Us section CSS End */
+/*Responsive CSS Start*/
+@media screen and (min-width: 1300px) and  (max-width: 1920px){
+.page-banner-section.section {
+    position: relative;
+    min-height: 33vw;
+    padding: 60px 0 60px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+}
+.page-banner-section * {
+    position: unset;
+}
+.page-banner-section img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+}
+@media (min-width: 1200px) {
+.rd-navbar-minimal.rd-navbar-static .rd-navbar-main {
+    padding: 0px 0 0;
+}
+.rd-navbar-minimal.rd-navbar-static.rd-navbar--is-stuck .rd-menu, .rd-navbar-minimal.rd-navbar-static.rd-navbar--is-clone .rd-menu {
+    margin-top: 4px;
+}
+h4,.heading-4 {
+    font-size: 24px;
+}
+.container {
+    max-width: 1170px;
+}
+.section-sm {
+    padding: 45px 0;
+}
+.page-banner-section img {
+    margin-top: 30px;
+}
+}
+@media screen and (min-width: 992px){
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.navbar-expand-lg > .container,
+.navbar-expand-lg > .container-fluid {
+    flex-wrap: nowrap;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+}
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+.rd-navbar-minimal.rd-navbar-static .rd-navbar-main{
+    padding: 0px;
+    flex-wrap: wrap;
+}
+.rd-navbar-main  .rd-navbar-nav-wrap{
+    width: 100%;
+}
+.rd-navbar-main .rd-navbar-nav-wrap .rd-nav-item:last-child {
+    float: right;
+}
+.rd-navbar-main .rd-navbar-nav-wrap .rd-nav-item:last-child .rd-nav-link{
+    background-color: #000;
+    padding: 14px 35px;
+}
+.rd-navbar-main .rd-navbar-main-element:before,
+.rd-navbar-main .rd-navbar-main-element:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #c6273a;
+}
+.rd-navbar-main .rd-navbar-main-element:before{
+    right: 100%;
+}
+.rd-navbar-main .rd-navbar-main-element:after{
+    left: 100%;
+}
+.rd-navbar-main .rd-navbar-main-element {
+    width: 100%;
+    justify-content: flex-start !important;
+    background-color: #c6273a;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.team-hire-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+.rd-navbar--is-stuck .team-hire-btn {
+    padding: 0px 0px;
+}
+.rd-navbar-minimal.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-brand img {
+    max-width: 160px;
+}
+.rd-navbar-static.rd-navbar--is-stuck .rd-nav-link {
+    line-height: 14px;
+}
+.page-header .rd-navbar-wrap{
+    max-height: 155px;
+}
+}
+@media screen and (max-width: 991.98px){
+.consult-btn .outline-white {
+    padding: 8px 16px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.title-common-section .wow {
+    font-size: 30px;
+}
+.record-list li strong {
+    font-size: 60px;
+}
+.record-list li span {
+    font-size: 19px;
+}
+.record-list li {
+    margin: 11px;
+}
+.consultation-section .title-common-section .wow {
+    font-size: 24px;
+    max-width: 360px;
+}
+}
+@media screen and (max-width: 767.98px){
+.header-top-bar .social-listing {
+    justify-content: center;
+}
+.header-top-bar {
+    padding: 6px 0 6px;
+}
+.header-top-bar .address-bar li {
+    text-align: center;
+    margin-top: 10px;
+}
+.about-content {
+    margin-bottom: 30px;
+}
+.record-list li {
+    max-width: calc(50% - 26px);
+}
+.record-list li:nth-child(2), .record-list li:last-child {
+    margin-right: 10px;
+}
+.consultation-section .title-common-section .wow {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.address-section + .address-section .inner-content::after{
+    display: none;
+}
+.address-section + .address-section .inner-content{
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 414.98px){
+.swiper-slide .button.button-common, .button-common {
+    padding: 13px 30px;
+    font-size: 16px;
+}
+.record-list li {
+    max-width: calc(1000% - 20px);
+}
+.record-list li:nth-child(2),.record-list li:nth-child(3) {
+    margin-top: 10px;
+}
+}
+img {
+    display: inline-block;
+    max-width: 246%;
+    height: auto;
+}
+/*Responsive CSS Start*/
